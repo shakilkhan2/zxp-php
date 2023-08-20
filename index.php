@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PHP - Introduction </title>
 </head>
 <body>
  
@@ -17,7 +17,7 @@ echo "Zepto X Programming Hero" . "<br>";
 
 echo "practice makes a man perfect." . "<br>";
 
-
+// variable
 $work = "walking";
 $Work = "Running";
 $name = "Hasib";
@@ -65,9 +65,31 @@ if ($age >= 18) {
         echo " You're not a student.";
     }
 } else {
-    echo "Sorry, you're not eligible for this.";
+    echo "Sorry, you're not eligible for this." . '<br>';
 }
 
+// operator
+$num1 = '21';
+$num2 = '200';
+
+echo  'The sum is = ' . ($num1 + $num2) . '<br>';
+echo 'result = ' . ($num2 - $num1) . '<br>';
+
+define('NAME' , 'Md. Zakaria ');
+define('Religion', 'Islam');
+
+echo NAME; echo Religion . '<br>';
+
+
+
+// loops
+for($i = 1; $i <= 11; $i++){
+    echo $i . '<br>';
+}
+
+for($i = 1; $i <=30; $i = $i*3){
+    echo $i;
+}
 ?>
 
 
