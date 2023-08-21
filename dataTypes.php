@@ -18,6 +18,10 @@ var_dump($isStudent);
 var_dump($people);
 var_dump($result);
 
-
+echo strlen('I love Bangladesh');
+echo strrev('I love Bangladesh') . '<br>';
+echo strrev('madam') . '<br>';
+echo strrev('A man, a plan, a canal, Panama!') . '<br>';
+echo str_word_count('I love Bangladesh and Cumilla.');
 
 ?>

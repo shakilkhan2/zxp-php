@@ -19,11 +19,11 @@ $myCar->model = "BMW ";
 
 
 // Accessing object properties
-echo $myCar->brand;  // Outputs "Toyota"
-echo $myCar->model;  // Outputs "Camry"
+echo $myCar->brand; 
+echo $myCar->model;  
 
 // Calling object methods
-$myCar->startEngine();  // Outputs "Starting the engine..."
+$myCar->startEngine();  
 
 
 ?>
